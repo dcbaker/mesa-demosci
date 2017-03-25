@@ -3,6 +3,7 @@ MAINTAINER Dylan Baker <dylan@pnwbakers.com>
 
 RUN apt-get update -qq && apt-get install -qq -y \
         gcc \
+        clang \
         git-core \
         libc6-dev \
         libgl1-mesa-dev \
