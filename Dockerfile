@@ -30,6 +30,3 @@ ENV LANGUAGE C.UTF-8
 ENV LC_ALL C.UTF-8
 
 RUN pip3 install meson
-
-COPY mesademos-run-tests.sh /root
-RUN chmod +x /root/mesademos-run-tests.sh
