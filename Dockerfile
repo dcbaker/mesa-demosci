@@ -4,6 +4,8 @@ MAINTAINER Dylan Baker <dylan@pnwbakers.com>
 RUN apt-get update -qq && apt-get install -qq -y \
         gcc \
         clang \
+        git-core \
+        mingw-w64 \
         libc6-dev \
         libepoxy-dev \
         libgl1-mesa-dev \
