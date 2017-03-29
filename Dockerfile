@@ -4,8 +4,8 @@ MAINTAINER Dylan Baker <dylan@pnwbakers.com>
 RUN apt-get update -qq && apt-get install -qq -y \
         gcc \
         clang \
-        git-core \
         libc6-dev \
+        freeglut3-dev \
         libgl1-mesa-dev \
         libegl1-mesa-dev \
         libgles1-mesa-dev \
