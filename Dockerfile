@@ -5,7 +5,7 @@ RUN apt-get update -qq && apt-get install -qq -y \
         gcc \
         clang \
         libc6-dev \
-        freeglut3-dev \
+        libepoxy-dev \
         libgl1-mesa-dev \
         libegl1-mesa-dev \
         libgles1-mesa-dev \
@@ -14,7 +14,6 @@ RUN apt-get update -qq && apt-get install -qq -y \
         libgbm-dev \
         libglu1-mesa \
         libosmesa6-dev \
-        libglew-dev \
         freeglut3-dev \
         locales \
         ninja-build \
