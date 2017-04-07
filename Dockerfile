@@ -7,7 +7,7 @@ RUN apt-get update -qq && apt-get install -qq -y \
         git-core \
         mingw-w64 \
         libc6-dev \
-        libepoxy-dev \
+        libglew-dev \
         libgl1-mesa-dev \
         libegl1-mesa-dev \
         libgles1-mesa-dev \
